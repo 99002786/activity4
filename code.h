@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-void swap_func(int num1,int num2);
+void swap_func(double first,double second);
 
 
 #endif
