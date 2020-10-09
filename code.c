@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main() {
+      void swap_func(double first, double second){
       double first, second, temp;
       printf("Enter first number: ");
       scanf("%lf", &first);
@@ -18,4 +19,5 @@ int main() {
       printf("\nAfter swapping, firstNumber = %.2lf\n", first);
       printf("After swapping, secondNumber = %.2lf", second);
       return 0;
+}
 }
