@@ -5,12 +5,12 @@ PROJECT_NAME = function
 BUILD = build
 
 # All source code files
-SRC = code.c\
+SRC = main.c\
 code.c\
 
 # All test source files
-TEST_SRC =code.c\
-test/test_function.c\
+TEST_SRC = code.c\
+test_function.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
